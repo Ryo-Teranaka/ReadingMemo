@@ -13,6 +13,18 @@
 		2ADCB8E527A5FEB8002472FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB8E327A5FEB8002472FD /* Main.storyboard */; };
 		2ADCB8E727A5FEBD002472FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB8E627A5FEBD002472FD /* Assets.xcassets */; };
 		2ADCB8EA27A5FEBD002472FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB8E827A5FEBD002472FD /* LaunchScreen.storyboard */; };
+		2ADCB95627A92C0D002472FD /* SectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB95427A92C0D002472FD /* SectionTableViewCell.swift */; };
+		2ADCB95727A92C0D002472FD /* SectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB95527A92C0D002472FD /* SectionCell.xib */; };
+		2ADCB95927A92E66002472FD /* MemoView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB95827A92E66002472FD /* MemoView.storyboard */; };
+		2ADCB95D27A92F4C002472FD /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB95C27A92F4C002472FD /* SectionViewController.swift */; };
+		2ADCB96227AAB816002472FD /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB96127AAB816002472FD /* BookViewController.swift */; };
+		2ADCB96927AB60E7002472FD /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB96727AB60E7002472FD /* BookTableViewCell.swift */; };
+		2ADCB96A27AB60E7002472FD /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB96827AB60E7002472FD /* BookTableViewCell.xib */; };
+		2ADCB96F27AFB612002472FD /* AddSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB96E27AFB612002472FD /* AddSectionViewController.swift */; };
+		2ADCB97327AFC0C7002472FD /* MemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB97127AFC0C7002472FD /* MemoTableViewCell.swift */; };
+		2ADCB97427AFC0C7002472FD /* MemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCB97227AFC0C7002472FD /* MemoTableViewCell.xib */; };
+		2ADCB97627B0B2EA002472FD /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB97527B0B2EA002472FD /* AddBookViewController.swift */; };
+		2ADCB97827B0FA36002472FD /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB97727B0FA36002472FD /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		2ADCB8E627A5FEBD002472FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ADCB8E927A5FEBD002472FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ADCB8EB27A5FEBD002472FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADCB95427A92C0D002472FD /* SectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewCell.swift; sourceTree = "<group>"; };
+		2ADCB95527A92C0D002472FD /* SectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionCell.xib; sourceTree = "<group>"; };
+		2ADCB95827A92E66002472FD /* MemoView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemoView.storyboard; sourceTree = "<group>"; };
+		2ADCB95C27A92F4C002472FD /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
+		2ADCB96127AAB816002472FD /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		2ADCB96727AB60E7002472FD /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		2ADCB96827AB60E7002472FD /* BookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
+		2ADCB96E27AFB612002472FD /* AddSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSectionViewController.swift; sourceTree = "<group>"; };
+		2ADCB97127AFC0C7002472FD /* MemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableViewCell.swift; sourceTree = "<group>"; };
+		2ADCB97227AFC0C7002472FD /* MemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemoTableViewCell.xib; sourceTree = "<group>"; };
+		2ADCB97527B0B2EA002472FD /* AddBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
+		2ADCB97727B0FA36002472FD /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +82,57 @@
 			children = (
 				2ADCB8DD27A5FEB8002472FD /* AppDelegate.swift */,
 				2ADCB8DF27A5FEB8002472FD /* SceneDelegate.swift */,
-				2ADCB8E127A5FEB8002472FD /* ViewController.swift */,
-				2ADCB8E327A5FEB8002472FD /* Main.storyboard */,
+				2ADCB95327A9277D002472FD /* Model */,
+				2ADCB95227A92765002472FD /* Controller */,
+				2ADCB95127A92755002472FD /* View */,
 				2ADCB8E627A5FEBD002472FD /* Assets.xcassets */,
 				2ADCB8E827A5FEBD002472FD /* LaunchScreen.storyboard */,
 				2ADCB8EB27A5FEBD002472FD /* Info.plist */,
 			);
 			path = ReadingMemo;
+			sourceTree = "<group>";
+		};
+		2ADCB95127A92755002472FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2ADCB8E327A5FEB8002472FD /* Main.storyboard */,
+				2ADCB95827A92E66002472FD /* MemoView.storyboard */,
+				2ADCB95427A92C0D002472FD /* SectionTableViewCell.swift */,
+				2ADCB95527A92C0D002472FD /* SectionCell.xib */,
+				2ADCB96727AB60E7002472FD /* BookTableViewCell.swift */,
+				2ADCB96827AB60E7002472FD /* BookTableViewCell.xib */,
+				2ADCB97127AFC0C7002472FD /* MemoTableViewCell.swift */,
+				2ADCB97227AFC0C7002472FD /* MemoTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2ADCB95227A92765002472FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2ADCB96D27AC0847002472FD /* Memo */,
+				2ADCB8E127A5FEB8002472FD /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2ADCB95327A9277D002472FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2ADCB96D27AC0847002472FD /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				2ADCB96127AAB816002472FD /* BookViewController.swift */,
+				2ADCB95C27A92F4C002472FD /* SectionViewController.swift */,
+				2ADCB96E27AFB612002472FD /* AddSectionViewController.swift */,
+				2ADCB97527B0B2EA002472FD /* AddBookViewController.swift */,
+				2ADCB97727B0FA36002472FD /* MemoViewController.swift */,
+			);
+			path = Memo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +194,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ADCB8EA27A5FEBD002472FD /* LaunchScreen.storyboard in Resources */,
+				2ADCB95727A92C0D002472FD /* SectionCell.xib in Resources */,
+				2ADCB97427AFC0C7002472FD /* MemoTableViewCell.xib in Resources */,
+				2ADCB96A27AB60E7002472FD /* BookTableViewCell.xib in Resources */,
 				2ADCB8E727A5FEBD002472FD /* Assets.xcassets in Resources */,
 				2ADCB8E527A5FEB8002472FD /* Main.storyboard in Resources */,
+				2ADCB95927A92E66002472FD /* MemoView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +210,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADCB97827B0FA36002472FD /* MemoViewController.swift in Sources */,
 				2ADCB8E227A5FEB8002472FD /* ViewController.swift in Sources */,
+				2ADCB97627B0B2EA002472FD /* AddBookViewController.swift in Sources */,
+				2ADCB95D27A92F4C002472FD /* SectionViewController.swift in Sources */,
+				2ADCB95627A92C0D002472FD /* SectionTableViewCell.swift in Sources */,
+				2ADCB96927AB60E7002472FD /* BookTableViewCell.swift in Sources */,
+				2ADCB96227AAB816002472FD /* BookViewController.swift in Sources */,
 				2ADCB8DE27A5FEB8002472FD /* AppDelegate.swift in Sources */,
+				2ADCB96F27AFB612002472FD /* AddSectionViewController.swift in Sources */,
+				2ADCB97327AFC0C7002472FD /* MemoTableViewCell.swift in Sources */,
 				2ADCB8E027A5FEB8002472FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
