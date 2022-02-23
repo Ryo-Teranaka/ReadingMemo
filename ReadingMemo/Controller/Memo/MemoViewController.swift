@@ -6,15 +6,16 @@
 //
 
 import UIKit
+import DropDown
 
-class MemoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class MemoViewController: UIViewController{
     
-    var editBarButtonItem: UIBarButtonItem!     // 編集ボタン
+    var editBarButtonItem: UIBarButtonItem!     //編集ボタン
 
-    @IBOutlet weak var sectionPickerView: UIPickerView!
     @IBOutlet weak var memoTextField: UITextField!
     @IBOutlet weak var addmemoButton: UIButton!
-
+    @IBOutlet weak var sectionLabel: UILabel!
+    
     let sectionList = [
         "第0章","第1章","第2章","第3章","第4章","第5章","第6章",
         "第7章","第8章","第9章","第10章","第11章","第12章","第13章"
@@ -24,9 +25,9 @@ class MemoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         super.viewDidLoad()
 
         // Delegate設定
-        sectionPickerView.delegate = self
-        sectionPickerView.dataSource = self
-
+        //sectionPickerView.delegate = self
+        //sectionPickerView.dataSource = self
+        
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -38,25 +39,7 @@ class MemoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         // ナビゲーションバー にボタンを追加
         self.navigationItem.rightBarButtonItem = editBarButtonItem
 
-        self.tabBarController?.tabBar.isHidden = false
-    }
-
-    
-    // UIPickerViewの列の数
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
-    
-    // UIPickerViewの行数、リストの数
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return sectionList.count
-    }
-
-    // UIPickerViewの最初の表示
-    func pickerView(_ pickerView: UIPickerView,
-                    titleForRow row: Int,
-                    forComponent component: Int) -> String? {
-        return sectionList[row]
+        self.tabBarController?.tabBar.isHidden = true
     }
     
     // "編集"ボタンが押された時の処理
@@ -64,14 +47,27 @@ class MemoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         print("【編集】ボタンが押された!")
     }
 
+    // UIPickerViewの列の数
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
     }
     */
+
+    // UIPickerViewの行数、リストの数
+    /*
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return sectionList.count
+    }
+     */
+
+    // UIPickerViewの最初の表示
+    /*
+    func pickerView(_ pickerView: UIPickerView,
+                    titleForRow row: Int,
+                    forComponent component: Int) -> String? {
+        return sectionList[row]
+    }
+     */
 
 }
