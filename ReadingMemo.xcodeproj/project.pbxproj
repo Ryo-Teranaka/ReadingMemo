@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A69D55E27C65FE5002C6F3B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A69D55D27C65FE5002C6F3B /* SettingViewController.swift */; };
+		2A7C60E827EEA93400CD8A8C /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C60E727EEA93300CD8A8C /* SettingTableViewController.swift */; };
 		2AACF96727BC8E0100D76DCE /* BookInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACF96627BC8E0100D76DCE /* BookInfo.swift */; };
 		2AACF96927BC8E1300D76DCE /* SectionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACF96827BC8E1300D76DCE /* SectionInfo.swift */; };
 		2ADCB8DE27A5FEB8002472FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB8DD27A5FEB8002472FD /* AppDelegate.swift */; };
@@ -31,7 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A69D55D27C65FE5002C6F3B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		2A7C60E727EEA93300CD8A8C /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		2AACF96627BC8E0100D76DCE /* BookInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookInfo.swift; sourceTree = "<group>"; };
 		2AACF96827BC8E1300D76DCE /* SectionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInfo.swift; sourceTree = "<group>"; };
 		2ADCB8DA27A5FEB8002472FD /* ReadingMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadingMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,7 +140,7 @@
 				2A69D55F27C666A2002C6F3B /* Book */,
 				2ADECF8D27C0E0C600B4EFE7 /* Section */,
 				2ADCB96D27AC0847002472FD /* Memo */,
-				2A69D55D27C65FE5002C6F3B /* SettingViewController.swift */,
+				2A7C60E727EEA93300CD8A8C /* SettingTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -301,10 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ADCB97827B0FA36002472FD /* MemoViewController.swift in Sources */,
+				2A7C60E827EEA93400CD8A8C /* SettingTableViewController.swift in Sources */,
 				2AACF96727BC8E0100D76DCE /* BookInfo.swift in Sources */,
 				2AACF96927BC8E1300D76DCE /* SectionInfo.swift in Sources */,
 				2ADCB97627B0B2EA002472FD /* AddBookViewController.swift in Sources */,
-				2A69D55E27C65FE5002C6F3B /* SettingViewController.swift in Sources */,
 				2ADCB95D27A92F4C002472FD /* SectionViewController.swift in Sources */,
 				2ADECF8A27C0DE4800B4EFE7 /* PopupViewController.swift in Sources */,
 				2ADCB95627A92C0D002472FD /* SectionTableViewCell.swift in Sources */,

@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import DropDown
 
 class MemoViewController: UIViewController{
     
@@ -15,11 +14,6 @@ class MemoViewController: UIViewController{
     @IBOutlet weak var memoTextField: UITextField!
     @IBOutlet weak var addmemoButton: UIButton!
     @IBOutlet weak var sectionLabel: UILabel!
-    
-    let sectionList = [
-        "第0章","第1章","第2章","第3章","第4章","第5章","第6章",
-        "第7章","第8章","第9章","第10章","第11章","第12章","第13章"
-    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,28 +40,5 @@ class MemoViewController: UIViewController{
     @objc func editBarButtonTapped(_ sender: UIBarButtonItem) {
         print("【編集】ボタンが押された!")
     }
-
-    // UIPickerViewの列の数
-    /*
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
-    */
-
-    // UIPickerViewの行数、リストの数
-    /*
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return sectionList.count
-    }
-     */
-
-    // UIPickerViewの最初の表示
-    /*
-    func pickerView(_ pickerView: UIPickerView,
-                    titleForRow row: Int,
-                    forComponent component: Int) -> String? {
-        return sectionList[row]
-    }
-     */
 
 }

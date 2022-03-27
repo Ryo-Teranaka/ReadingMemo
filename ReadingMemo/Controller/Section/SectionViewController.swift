@@ -11,12 +11,13 @@ class SectionViewController: UIViewController,UITableViewDelegate,UITableViewDat
     
     @IBOutlet weak var sectionTableView: UITableView!
 
-    var addBarButtonItem: UIBarButtonItem!      // 追加ボタン
+    var settingBarButtonItem: UIBarButtonItem!      // 設定ボタン
     var editBarButtonItem: UIBarButtonItem!     // 編集ボタン
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // セクションテーブルの登録
         sectionTableView.register(UINib(nibName: "SectionCell", bundle: nil), forCellReuseIdentifier: "customCell")
         
         // UIButtonを生成する
@@ -57,10 +58,12 @@ class SectionViewController: UIViewController,UITableViewDelegate,UITableViewDat
         
         //ナビゲーションバー設定
         editBarButtonItem = UIBarButtonItem(image: UIImage(named: "pen_button")!, style: .plain, target: self, action: #selector(editBarButtonTapped(_:)))
+        //ナビゲーションバー設定
+        settingBarButtonItem = UIBarButtonItem(image: UIImage(named: "gear")!, style: .plain, target: self, action: #selector(settingBarButtonTapped(_:)))
         //ナビゲーションバー にボタンを追加
         self.navigationItem.rightBarButtonItem = editBarButtonItem
-        //タブバー非表示
-        self.tabBarController?.tabBar.isHidden = false
+        //ナビゲーションバー にボタンを追加
+        self.navigationItem.leftBarButtonItem = settingBarButtonItem
     }
 
 
@@ -86,8 +89,12 @@ class SectionViewController: UIViewController,UITableViewDelegate,UITableViewDat
     @objc func editBarButtonTapped(_ sender: UIBarButtonItem) {
         print("編集ボタンが押下されました")
     }
-    
-    // "編集"ボタンが押された時の処理
+
+    @objc func settingBarButtonTapped(_ sender: UIBarButtonItem) {
+        performSegue(withIdentifier: "toSettingTableViewController", sender: nil)
+    }
+
+    // プラスボタンが押された時の処理
     @objc func addNewSection(_ sender: UIBarButtonItem) {
 
         let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
